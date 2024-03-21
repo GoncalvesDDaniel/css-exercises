@@ -1,0 +1,45 @@
+:root {
+    --light-red-background: lightcoral;
+    --light-green: lightgreen;
+    --font-size-default: 16px;
+    --font-size-medium: 24px;
+    --font-size-large: 36px;
+    --font-family-Verdana: Verdana;
+    --font-family-fallback: Sans-serif, DejaVu Sans;
+    --font-color-accent: blue;
+    --font-color-default: black;
+    --font-weight-accent: bold;
+}
+html {
+    font-family: Verdana, sans-serif, DejaVu Sans;
+}
+p {
+    font-family: var(--font-family-fallback);
+}
+div {
+    font-family: var(--font-family-Verdana);
+}
+
+.red-background {
+    background-color: var(--light-red-background);
+}
+.green-background {
+    background-color: var(--light-green);
+}
+.font-size-default {
+    font-size: var(--font-size-default);
+}
+.font-size-medium {
+    font-size: var(--font-size-medium);
+}
+.font-size-large {
+    font-size: var(--font-size-large);
+}
+
+.font-color-accent {
+    color: var(--font-color-accent);
+}
+
+.font-weight-accent {
+    font-weight: var(--font-weight-accent);
+}
