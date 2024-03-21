@@ -1,0 +1,14 @@
+body {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+body .first {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+body .second {
+    background-color: yellow;
+}
